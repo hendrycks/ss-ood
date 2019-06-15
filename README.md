@@ -4,7 +4,7 @@ We show that self-supervised learning can tremendously improve out-of-distributi
 
 <img align="center" src="not_hotdog.png" width="750">
 
-Download the one class ImageNet test set here.
+Download the one class ImageNet test set [here](https://drive.google.com/file/d/13xzVuQMEhSnBRZr-YaaO08coLU2dxAUq/view?usp=sharing).
 
 The code requires PyTorch 1.0 + and Python 3+.
 
