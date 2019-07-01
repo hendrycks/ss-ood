@@ -1,5 +1,7 @@
 # Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty
 
+This repository contains the dataset and some code for the paper [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340) by Dan Hendrycks, Mantas Mazeika, Saurav Kadavath, and Dawn Song.
+
 We show that self-supervised learning can tremendously improve out-of-distribution detection as well as various types of robustness.
 
 <img align="center" src="not_hotdog.png" width="750">
@@ -15,6 +17,6 @@ If you find this useful in your research, please consider citing:
     @article{hendrycks2019selfsupervised,
       title={Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty},
       author={Dan Hendrycks and Mantas Mazeika and Saurav Kadavath and Dawn Song},
-      journal={arXiv preprint},
+      journal={arXiv preprint arXiv:1906.12340},
       year={2019}
     }
