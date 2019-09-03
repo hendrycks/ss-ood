@@ -17,6 +17,6 @@ If you find this useful in your research, please consider citing:
     @article{hendrycks2019selfsupervised,
       title={Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty},
       author={Dan Hendrycks and Mantas Mazeika and Saurav Kadavath and Dawn Song},
-      journal={arXiv preprint arXiv:1906.12340},
+      journal={Advances in Neural Information Processing Systems (NeurIPS)},
       year={2019}
     }
