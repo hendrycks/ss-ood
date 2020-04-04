@@ -61,7 +61,7 @@ class PGD(nn.Module):
                 logits, pen = model(adv_bx * 2 - 1)
                 loss = F.cross_entropy(logits[:curr_batch_size], by, reduction='sum')
                 if self.attack_rotations:
-                    loss += F.cross_entropy(model.module.rot_pred(pen[curr_batch_size:]), by_prime, reduction='sum')
+                    loss += F.cross_entropy(model.module.rot_pred(pen[curr_batch_size:]), by_prime, reduction='sum') / 8.
             grad = torch.autograd.grad(loss, adv_bx, only_inputs=True)[0]
 
             adv_bx = adv_bx.detach() + self.step_size * torch.sign(grad.detach())
