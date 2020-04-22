@@ -1,0 +1,1 @@
+{'batch_size': 128, 'decay': 0.0005, 'droprate': 0.3, 'epochs': 200, 'in_class': None, 'layers': 40, 'learning_rate': 0.1, 'momentum': 0.9, 'ngpu': 1, 'prefetch': 4, 'rot_loss_weight': 3.0, 'save': 'snapshots/train_aux_new_rot_only_rotweight3_normflipcrop', 'test_bs': 200, 'transl_loss_weight': 0.0, 'widen_factor': 2}
