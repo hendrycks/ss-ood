@@ -41,7 +41,7 @@ parser = argparse.ArgumentParser(description='Train a classifier with auxiliary 
 parser.add_argument('--in-class', type=int, default=None)
 
 # Optimization options
-parser.add_argument('--epochs', '-e', type=int, default=5, help='Number of epochs to train.')
+parser.add_argument('--epochs', '-e', type=int, default=100, help='Number of epochs to train.')
 parser.add_argument('--learning_rate', '-lr', type=float, default=0.1, help='The initial learning rate.')
 parser.add_argument('--batch_size', '-b', type=int, default=128, help='Batch size.')
 parser.add_argument('--test_bs', type=int, default=200)
